@@ -18,5 +18,9 @@ spec:
           env:
             - name: MONGODB_URI
               value: mongodb://mongodb:27017/ai_task_platform
+            - name: REDIS_HOST
+              value: redis
             - name: REDIS_PORT
               value: "6379"
+            - name: REDIS_QUEUE_NAME
+              value: task_queue
