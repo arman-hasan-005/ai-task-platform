@@ -16,20 +16,20 @@ jobs:
       - name: Login to Docker Hub
         uses: docker/login-action@v2
         with:
-          username: ${{ secrets.DOCKER_USERNAME }}
+          username: ${{ secrets.armanhasan005 }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build and push backend
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/ai-task-backend ./backend
-          docker push ${{ secrets.DOCKER_USERNAME }}/ai-task-backend
+          docker build -t ${{ secrets.armanhasan005 }}/ai-task-backend ./backend
+          docker push ${{ secrets.armanhasan005 }}/ai-task-backend
 
       - name: Build and push frontend
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/ai-task-frontend ./frontend
-          docker push ${{ secrets.DOCKER_USERNAME }}/ai-task-frontend
+          docker build -t ${{ secrets.armanhasan005 }}/ai-task-frontend ./frontend
+          docker push ${{ secrets.armanhasan005 }}/ai-task-frontend
 
       - name: Build and push worker
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/ai-task-worker ./worker
-          docker push ${{ secrets.DOCKER_USERNAME }}/ai-task-worker
+          docker build -t ${{ secrets.armanhasan005 }}/ai-task-worker ./worker
+          docker push ${{ secrets.armanhasan005 }}/ai-task-worker
