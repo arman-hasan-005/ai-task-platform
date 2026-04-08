@@ -1,0 +1,23 @@
+2026-04-07 16:17:59 [error]: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1122:18)
+    at afterConnectMultiple (node:net:1689:7)
+2026-04-07 16:18:00 [error]: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1122:18)
+    at afterConnectMultiple (node:net:1689:7)
+2026-04-07 16:20:24 [error]: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1122:18)
+    at afterConnectMultiple (node:net:1689:7)
+2026-04-07 16:20:24 [error]: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1122:18)
+    at afterConnectMultiple (node:net:1689:7)
+2026-04-07 23:44:50 [error]: ReplyError: NOAUTH Authentication required.
+    at parseError (C:\Users\hasan\OneDrive\Desktop\AI-TASK\backend\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\Users\hasan\OneDrive\Desktop\AI-TASK\backend\node_modules\redis-parser\lib\parser.js:302:14)
+2026-04-07 23:45:35 [error]: ReplyError: NOAUTH Authentication required.
+    at parseError (C:\Users\hasan\OneDrive\Desktop\AI-TASK\backend\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\Users\hasan\OneDrive\Desktop\AI-TASK\backend\node_modules\redis-parser\lib\parser.js:302:14)
+2026-04-07 23:45:35 [error]: Error: Connection is closed.
+    at EventEmitter.connectionCloseHandler (C:\Users\hasan\OneDrive\Desktop\AI-TASK\backend\node_modules\ioredis\built\Redis.js:208:28)
+    at Object.onceWrapper (node:events:639:26)
+    at EventEmitter.emit (node:events:536:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
