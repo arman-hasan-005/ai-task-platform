@@ -9,7 +9,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/YOUR_USERNAME/ai-task-platform-infra   # Replace with your infra repo
+    repoURL: https://github.com/arman-hasan-005/ai-task-platform-infra # Replace with your infra repo
     targetRevision: main
     path: k8s
 
@@ -19,8 +19,8 @@ spec:
 
   syncPolicy:
     automated:
-      prune: true          # Auto-delete removed resources
-      selfHeal: true       # Auto-fix manual changes
+      prune: true # Auto-delete removed resources
+      selfHeal: true # Auto-fix manual changes
       allowEmpty: false
     syncOptions:
       - CreateNamespace=true
@@ -38,4 +38,4 @@ spec:
     - group: apps
       kind: Deployment
       jsonPointers:
-        - /spec/replicas   # Ignore HPA-managed replica count
+        - /spec/replicas # Ignore HPA-managed replica count
